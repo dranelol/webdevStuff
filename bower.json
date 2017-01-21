@@ -12,7 +12,22 @@
     "test",
     "tests"
   ],
+
   "dependencies": {
     "bootstrap": "v4.0.0-alpha.6"
+  },
+
+  "overrides": 
+  {
+      "bootstrap": 
+      {
+        "main": 
+        [
+          "dist/css/bootstrap.css",
+          "dist/js/bootstrap.js"
+        ]
+      }
   }
+
+
 }
